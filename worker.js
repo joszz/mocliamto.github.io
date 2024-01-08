@@ -9,6 +9,12 @@ const precachedResources = [
     'src/chartjs/',
     'src/d3/',
     'src/assets/css/@fortawesome/fontawesome-free/css/all.min.css',
+    'src/assets/css/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2',
+    'src/assets/css/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2',
+    'src/assets/css/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2',
+    'src/assets/css/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf',
+    'src/assets/css/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf',
+    'src/assets/css/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf',
     'src/assets/css/bootstrap/dist/css/bootstrap.min.css',
     'src/assets/css/prismjs/plugins/line-numbers/prism-line-numbers.min.css',
     'src/assets/css/prismjs/plugins/match-braces/prism-match-braces.min.css',
@@ -40,7 +46,6 @@ const precachedResources = [
     'README.md',
     'src/assets/file/rapportGebruikerservaring.pdf',
     'src/assets/file/grafiekLibraries.xlsx'
-
 ];
 
 self.addEventListener('install', function (event) {
